@@ -1,0 +1,74 @@
+.countryContainer {
+  width: 400px;
+  margin:50px 20px;
+  display:inline-block;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  transition:0.3s;
+  vertical-align: top;
+}
+
+.countryContainer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.countryFlagContainer {
+  height:80px;
+  width:100px;
+  display:inline-block;
+  vertical-align: top;
+  border-bottom: 1px solid lightgrey;
+}
+
+.countryFlagContainer img {
+  width:85px;
+  height: 60px;
+  margin-top:10px;
+}
+
+.countryInfoContainer {
+  height:80px;
+  width:300px;
+  display: inline-block;
+  text-align:left;
+  background: rgb(240, 240, 240);
+  border-bottom: 1px solid lightgrey;
+}
+
+.countryName {
+  margin:10px 10px;
+  font-weight: bold;
+  color:black;
+  font-size:18px;
+}
+
+.countryContinent {
+  margin:10px 10px;
+  color:grey;
+  font-size:16px;
+}
+
+.ExtraInfoContainer {
+}
+
+.ExtraInfoContainer p {
+  margin-top:25px;
+}
+
+.hide {
+  display:none;
+}
+
+.show {
+  display:block;
+}
+
+.test {
+  color:grey;
+  cursor: pointer;
+}
+
+.test:hover {
+  color:rgb(100, 100, 100);
+}
+

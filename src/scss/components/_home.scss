@@ -1,0 +1,69 @@
+.homeContainer {
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.headerContainer {
+    width:100%;
+    margin-top:20px;
+  }
+
+  .pageInfoContainer p{
+     display:inline-block;
+     margin-left:20px;
+     margin-right:20px;
+  }
+
+  .pageControlsContainer {
+      height:50px;
+      width:50%;
+      display:inline-block;
+  }
+
+  .title { 
+    font-size: 24px;
+    font-weight:bold;
+  }
+
+  .pageCount {
+      color: grey;
+      font-size:20px;
+  }
+
+  .pageContainer {
+    width:360px;
+    height:50px;
+    margin:auto;
+    display:block;
+    margin-top:-10px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+  }
+
+  .page {
+      height:30px;
+      width:40px;
+      border:1px solid lightgray;
+      display:inline-block;
+      line-height: 30px;
+      color:rgb(110, 110, 194);
+      font-weight:bold;
+      font-size:12px;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+
+  .page:hover {
+    background: rgb(240, 240, 240);
+  }
+
+  .selected { 
+      color:black;
+      background: rgb(240, 240, 240);
+  }
+
