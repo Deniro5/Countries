@@ -1,5 +1,5 @@
 .countryContainer {
-  width: 400px;
+  max-width: 400px;
   margin:50px 20px;
   display:inline-block;
   border: 1px solid lightgrey;
@@ -72,3 +72,8 @@
   color:rgb(100, 100, 100);
 }
 
+@media only screen and (max-width: 875px) {
+ .countryContainer {
+  margin:50px auto;
+ }
+}

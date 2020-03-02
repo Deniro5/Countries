@@ -23,14 +23,10 @@ class Country extends Component {
   
   render() {
 
-    var sup = "2";
-
-
-
     return (
       <div onClick = {this.show} className="countryContainer">
         <div className = "countryFlagContainer">
-          <img src = {this.props.flag}/> 
+          <img alt = "flag" src = {this.props.flag}/> 
         </div>
         <div className = "countryInfoContainer">
           <p className = "countryName"> {this.props.name} </p>

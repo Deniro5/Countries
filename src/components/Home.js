@@ -38,8 +38,8 @@ class Home extends Component {
     var count = 0;
     var boundary = 12;
     if (this.props.match.params.page) {
-      var count = 12*(this.props.match.params.page-1);
-      var boundary = count+12;
+      count = 12 * (this.props.match.params.page-1);
+      boundary = count + 12;
     }
     while (count < this.state.items.length && count < boundary) {
       countries.push(
@@ -47,8 +47,6 @@ class Home extends Component {
       )
       count++;
     }
-
- 
 
 
     return (
